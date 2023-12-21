@@ -2,6 +2,6 @@ services:
   figaro:
     pull_policy: build
     build: .
-    image: @scottgarner/figaro
+    image: scottmadethis/figaro
     container_name: figaro
     restart: always
