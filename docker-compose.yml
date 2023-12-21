@@ -1,7 +1,7 @@
 services:
   figaro:
-    pull_policy: build
     build: .
     image: scottmadethis/figaro
+    network_mode: host
     container_name: figaro
     restart: always
