@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="snd_seq", DRIVER=="snd_seq_midi", RUN+="/bin/sh /home/pi/figaro/bin/autoconnect.sh"

@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  figaro:
+    pull_policy: build
+    build: .
+    image: @scottmadethis/figaro
+    container_name: figaro
+    restart: always
